@@ -17,4 +17,9 @@ Meanwhile, a feature like moving health bars that are in coordination with the m
 
 ### Database Structure
 
-<img width="1295" alt="Screenshot 2020-06-12 at 10 54 09" src="https://user-images.githubusercontent.com/41115973/84490823-9b156380-ac9b-11ea-8156-733fb6d799c8.png">
+<img width="887" alt="Screenshot 2020-06-12 at 11 35 43" src="https://user-images.githubusercontent.com/41115973/84494164-e9793100-aca0-11ea-9542-faa1c55987a5.png">
+The screenshot above displays the planned structure for tables that involve user management. This includes their login details and the teams they've built. Because a user can have many teams, and a team can have many monsters, a joining table called team monsters was required to hold which monsters are used in which team.
+
+<img width="923" alt="Screenshot 2020-06-12 at 11 24 01" src="https://user-images.githubusercontent.com/41115973/84493942-8daea800-aca0-11ea-9add-1480526d968f.png">
+
+When looking at the tables needed for monster information, a similar pattern arises. A monster will have many moves, and a move can be used on many monsters. Hence the use of a MonsterMoves table, which connects the two. 
