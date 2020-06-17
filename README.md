@@ -23,3 +23,16 @@ The screenshot above displays the planned structure for tables that involve user
 <img width="923" alt="Screenshot 2020-06-12 at 11 24 01" src="https://user-images.githubusercontent.com/41115973/84493942-8daea800-aca0-11ea-9add-1480526d968f.png">
 
 When looking at the tables needed for monster information, a similar pattern arises. A monster will have many moves, and a move can be used on many monsters. Hence the use of a MonsterMoves table, which connects the two. 
+
+
+## Local Deployment
+
+Running the project locally will require a few steps of setting up.
+
+1. Clone the repository locally
+
+2. Ensure you have Python3 installed - you can find a guide to do so [here](https://docs.python-guide.org/starting/install3/osx/)
+
+3. Navigate to ../SolaireDjango/Solaire
+
+4. Run `python3 manage.py seed` to add data to the database.
