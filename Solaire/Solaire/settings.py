@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'users.apps.UsersConfig',
     'battles.apps.BattlesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
