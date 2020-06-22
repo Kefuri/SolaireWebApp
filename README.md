@@ -35,4 +35,4 @@ Running the project locally will require a few steps of setting up.
 
 3. Navigate to ../SolaireDjango/Solaire
 
-4. Run `python3 manage.py seed` to add data to the database.
+4. Run `python3 manage.py seed` to add data to the database. You can also use this command to clear the database, by running `python3 manage.py seed --mode clear`
